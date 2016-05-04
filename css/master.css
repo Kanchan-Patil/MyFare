@@ -1,0 +1,17 @@
+.big-label{
+	font-size: 32px;
+	font-weight: 600;
+}
+.small-label{
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.label-wrapper{
+	height:120px;
+	border:1px solid blue;
+	background-color:white;
+	margin:5px;
+	text-align: center;
+
+}
