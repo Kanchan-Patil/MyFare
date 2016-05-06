@@ -1,7 +1,24 @@
 <ion-view title="History" id="page2">
     <ion-content padding="true" class="has-header">
         <div>
-            <img src="img/cA2MZ2ELTFmPq0fNgLeC_Screenshot_2016-05-02-18-59-02_com.olacabs.customer.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+<!--             <img src="img/cA2MZ2ELTFmPq0fNgLeC_Screenshot_2016-05-02-18-59-02_com.olacabs.customer.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"> -->
+			<ul class="history-list">
+				<li ng-repeat="item in history track by $index">
+					<div class="history-item-wrapper">
+						<div class="item-header">
+							<div class="item-date">{{item.start_time}}</div>
+							<div class="item-fare">{{item.fare | currency:'&#8377;'}}</div>
+							<div class="clear"></div>
+							<div class="item-ride-type">Type : {{item.ride_type}}</div>
+						</div>
+						<div class="item-body">
+							<div class="item-start-addr">{{item.start_addr}}</div>
+							<div class="item-end-addr">{{item.end_addr}}</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			
         </div>
     </ion-content>
 </ion-view>

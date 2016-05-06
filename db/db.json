@@ -1,0 +1,33 @@
+[
+	{
+		"start_time": "Thursday, 5 May 2016, 13:45",
+		"end_time" : "14:30",
+		"start_lat" : "19.1197° N",
+		"start_long" : "72.9051° E",
+		"end_lat" : "19.0328° N",
+		"end_long" : "72.8964° E",
+		"start_addr" : "Powai, Hiranandani, Mumbai",
+		"end_addr" : "Subhash Nagar, Chembur, Mumbai",
+		"distance" : "23",
+		"fare" : "157.23",
+		"wait_time" : "06",
+		"ride_type" : "auto",
+		"created_at" : "05/05/2016"
+	},
+
+	{
+		"start_time": "Thursday, 5 May 2016, 13:45",
+		"end_time" : "14:30",
+		"start_lat" : "19.1197° N",
+		"start_long" : "72.9051° E",
+		"end_lat" : "19.0328° N",
+		"end_long" : "72.8964° E",
+		"start_addr" : "Powai, Hiranandani, Mumbai",
+		"end_addr" : "Subhash Nagar, Chembur, Mumbai",
+		"distance" : "23",
+		"fare" : "157.23",
+		"wait_time" : "06",
+		"ride_type" : "auto",
+		"created_at" : "05/05/2016"
+	}
+]
